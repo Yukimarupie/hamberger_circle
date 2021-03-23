@@ -1,6 +1,7 @@
-@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background: #eee;
 }
 /* ***********************************************************
@@ -178,7 +179,6 @@ body {
   zoom: 1;
 }
 
-.circle {
-    background-color: #000;
-    clip-path: circle(100px at 100pc 100px);
+.open #nav-toggle span:nth-child(3)::after {
+  display: none;
 }
